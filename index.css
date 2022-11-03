@@ -1,0 +1,375 @@
+/* Reset User Agent Stylesheet
+--------------------------------------*/
+* {
+    box-sizing: border-box;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    margin-block: 0;
+}
+
+/* Typography
+--------------------------------------*/
+html {
+    font-family: 'Nunito', sans-serif;
+    color: #3a3a3a;
+    background-color: white;
+    font-size: 16px;
+    line-height: 1.5;
+}
+h1 {
+    font-size: 3vw;
+    font-weight: 800;
+    line-height: 1.2;
+}
+h2  {
+    font-size: 2.25rem;
+    font-weight: 700;
+}
+h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.75;
+}
+p {
+    font-size: 1.1rem;
+    color:hsl(0, 0%, 50%);
+    font-weight: 300;
+}
+a {
+    font-size: 1.15rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: #3a3a3a;
+}
+a:hover {
+    text-decoration: underline;
+}
+blockquote {
+    font-size: 1.2rem;
+    color:hsl(0, 0%, 50%);
+    font-weight: 300;
+}
+strong {
+    font-weight: 600;
+}
+#future_txt {
+    font-size: 1.25rem;
+}
+
+/* Universal Elements
+--------------------------------------*/
+.bg_blue {
+    background-color: rgb(228, 234, 242);
+}
+.border_bottom {
+    border-bottom: solid 1px lightsteelblue;
+}
+.border_left {
+    border-left: solid 1px lightsteelblue;
+}
+.border_top {
+    border-top: solid 1px lightsteelblue;
+}
+.box_large {
+    flex-direction: column;
+}
+.box_large_1 {
+    width: 60%;
+    padding: 1.5rem;
+}
+.box_large_2 {
+    width: 40%;
+}
+.box_small {
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    padding: 1.5rem;
+}
+.box_small:hover {
+    background-color: rgb(228, 234, 242);
+    cursor: pointer;
+}
+.box_small_txt {
+    flex-direction: column;
+}
+.box_small a {
+    color:#5f91dd;
+}
+.flex {
+    display: flex;
+}
+.img_large {
+    width: 100%;
+}
+.img_small {
+    width: 35%;
+    margin-right: 1rem;
+}
+.img_small_mobile {
+    display: none;
+}
+.mobile {
+    display: none;
+}
+.section_title {
+    justify-content: center;
+    padding: 2rem 0;
+}
+.strip {
+    flex-direction: row;
+}
+
+/* Header
+--------------------------------------*/
+header {    
+    height: 4.5rem;
+    width: 100%;
+    padding: 0 2vw;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    align-items: center;
+    justify-content:space-between;
+    background-color: white;
+}
+#logo {
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.5rem;
+}
+#logo:hover {
+    text-decoration: underline hsl(0, 0%, 20%) 1.5px;
+    cursor: pointer;
+}
+#logo img {
+    height: 3rem;
+}
+#logo_holmar {
+    color: hsl(0, 0%, 20%);
+    font-weight: 900;
+}
+#logo_academy {
+    color: hsl(0, 0%, 50%);
+    font-weight: 400;
+}
+#nav_main a {
+    margin-left: 1rem;
+}
+#nav_main a:hover {
+    color: white;
+    text-decoration: none;
+    background-color: #3a3a3a;
+    cursor: pointer;
+}
+
+/* Main
+--------------------------------------*/
+main {
+    margin-top: 4.5rem;
+}
+
+/* Start
+--------------------------------------*/
+#strip_hero {
+    align-items: center;
+}
+#strip_hero .box_large_2 {
+    padding: 1.5rem 3rem;
+    text-align: center;
+}
+button {
+    height: 3.5rem;
+    width: 90%;
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: white;
+    background-color: #3a3a3a;
+    border-radius: 0.3rem;
+    box-shadow: 2.5px 2.5px 2.5px hsla(0, 0%, 30%,0.3);
+    margin-top: 2rem;
+    align-self: center;
+}
+button:hover {
+    color: #3a3a3a;
+    background-color: white;
+    border: solid 1.5px grey;
+    box-shadow: none;
+    cursor: pointer;
+    position: relative;
+    top: 2.5px;
+    left: 2.5px;
+}
+
+/* Learn
+--------------------------------------*/
+.strip_courses {
+    justify-content: space-evenly;
+    padding: 0 1.5rem 2rem;
+}
+.box_course {
+    width: 30%;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid rgb(228, 234, 242);
+}
+.box_course:hover {
+    border: 1px solid #3a3a3a;
+    cursor: pointer;
+}
+.course_txt {
+    text-align: center;
+    padding: 1.5rem 1rem 2.75rem;
+}
+
+/* Thesis Exibit
+--------------------------------------*/
+#strip_exibit .box_large_1 {
+    padding-top: 0;
+}
+video {
+    width: 100%;
+}
+
+/* Footer
+--------------------------------------*/
+footer {
+    padding: 1.5rem 1.25rem 2rem;
+    align-items: center;
+    justify-content: space-between;
+}
+footer p {
+    color: hsl(0, 0%, 50%);
+    font-size: 1rem;
+    font-weight: 500;
+}
+#nav_footer a {
+    color: hsl(0, 0%, 50%);
+    font-size: 1rem;
+    font-weight: 500;
+    margin-left: 1rem;
+}
+#nav_footer a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    /* Hidden Elements | Tablet + Mobile
+    --------------------------------------*/
+    .box_course img,
+    .box_course p,
+    .img_small,
+    .logo_txt,
+    #box_exibit_txt,
+    #nav_main,
+    #nav_footer,
+    #strip_info .box_large_1,
+    #strip_exibit .box_large_2 {
+        display: none;
+    }
+
+    /* Typography | Tablet + Mobile
+    --------------------------------------*/
+    h1 {
+        font-size: 2.3rem;
+    }
+    h2  {
+        font-size: 1.6rem;
+    }
+    h3 {
+        font-size: 1.4rem;
+    }
+
+    /* Universal Elements | Tablet + Mobile
+    --------------------------------------*/
+    .border_left {
+        border-left: 0;
+    }
+    .box_large {
+        width: 100%;
+        padding: 0;
+    }
+    .box_small {
+        flex-direction: column;
+        border: 0;
+        padding: 1rem;
+    }
+    .box_small_txt {
+        padding: 1rem;
+        width: 100%;
+    }
+    .img_small_mobile {
+        width: 100%;
+    }
+    .mobile {
+        display: flex;
+    } 
+    .strip {
+        flex-direction: column;
+    }
+
+    /* Header | Tablet + Mobile
+    --------------------------------------*/
+    #nav_mobile {
+        display: flex;
+        flex-direction: row;
+        width: 60%;
+        justify-content: space-between;
+        line-height: 1;
+        position: relative;
+        top: 0.25rem;
+    }
+    #nav_mobile img {
+        height: 2rem;
+    }
+
+    /* Start | Tablet + Mobile
+    --------------------------------------*/
+    #strip_hero .box_large_2 {
+        padding: 2rem 1rem;
+    }
+    button {
+        margin-top: 1.5rem;
+    }
+
+    /* Learn | Tablet + Mobile
+    --------------------------------------*/
+    #title_learn {
+        padding-bottom: 1.5rem;
+        background-color: white;
+    }
+    .strip_courses {
+        background-color: white;
+        padding: 0;
+    }
+    #strip_courses_2 {
+        padding-bottom: 1rem;
+    }
+    .box_course {
+        padding: 0.5rem 1rem;
+        border: 1px solid white;
+        width: 100%;
+    }
+    .course_txt {
+        justify-content: center;
+        padding: 1rem;
+        background-color:rgb(228, 234, 242);
+        border-radius: 0.3rem;
+    }
+
+    /* Thesis Exibit | Tablet + Mobile
+    --------------------------------------*/
+    #title_exibit {
+        margin-top: 0.5rem;
+    }
+
+    /* Footer | Tablet + Mobile
+    --------------------------------------*/
+    footer p {
+        font-size: 0.9rem;
+    }
+}
